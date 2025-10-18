@@ -39,7 +39,7 @@ export default function Home() {
 
   const handleOpenLinkedin = () => {
     window.open(
-      "https://www.linkedin.com/in/poh-wei-pin-7b9061183/",
+      "https://www.linkedin.com/in/angerdileklen1/",
       "_blank",
       "noreferrer"
     );
