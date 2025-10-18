@@ -34,7 +34,7 @@ export default function Home() {
   };
 
   const handleOpenGitHub = () => {
-    window.open("https://github.com/firwer", "_blank", "noreferrer");
+    window.open("https://github.com/AngerDileklen", "_blank", "noreferrer");
   };
 
   const handleOpenLinkedin = () => {
