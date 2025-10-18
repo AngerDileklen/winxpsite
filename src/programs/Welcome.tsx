@@ -21,39 +21,29 @@ import userprofile2 from "../../assets/userprofile2.jpg";
 import ebc1 from "../../assets/ebc1.webp";
 import ebc2 from "../../assets/ebc2.webp";
 
-const INTRO = `Hi, I'm Wei Pin, an aspiring software engineer and entrepreneur based in Singapore. I am 
-  currently a Computer Engineering Fresh Graduate at the National University of Singapore and I am
-  passionate about building innovative software solutions that solves problems.`;
+const INTRO = `Hi, I'm Anger Ege, an aspiring Corporate Banking and Investment professional, currently based in Reims, France. 
+I am a MSc International Finance student at NEOMA Business School, 
+and I am passionate about building analytical models that reveal the story behind the numbers.`;
 
-const WHYSITE = `I always love challenging myself to creating something different and interesting.
-The main reason why I chose to create a website that resembles a Windows XP OS is because my 
-software development journey first started back in the early 2010 when I was creating simple utility
-apps such as calculators, web browser, message encrypters, phishing app and simple chatbot using 
-Visual Basic on Visual Studio 2010 out of curiousity and fun. Now that I have more experience in
-software development, I decided to "recreate" the environment I used to work in back then and make
-it feel as though you are accessing my computer directly.`;
+const WHYSITE = `My fascination with finance began not in a lecture hall, but at my family’s dining-room table in Istanbul, 
+where my mother taught me that money is a language of choices. Every decision carried a story about what a household, 
+or a business, truly values. My professional journey first started to take shape when I moved 7,000 km to Canada at 18, 
+translating that early curiosity into the language of economics at McGill University. Now, with advanced training in corporate finance, 
+I am "recreating" that early passion, building sophisticated AI models for my thesis to understand corporate choices and capital allocation at a global scale.`;
 
-const INTERESTS = `Other than my interest in developing websites and apps for fun, I love solo
-travelling and exploring new places. It is during these times I get to reflect on my own life and
-step out of my comfort zone to talk to people within the local community and my hostel where I meet
-people from all over the world. Other than that, I am also a firm believer that the best way to 
-learn and grow as a person is to immerse yourself in a different culture and environment. This
-forces you become adaptable to new situations and learn to be more independent and self-reliant.`;
+const INTERESTS = `Other than my interest in financial markets, I believe in testing my limits. 
+My version of trekking to Everest Base Camp was co-founding my startup, ImiGoose. 
+It was a grueling journey from concept to securing CAD 20,000 in funding, navigating the uncertainty of a 
+new venture and the steep learning curve of entrepreneurship. The entire experience was a testament to resilience 
+and showed me that with a clear goal, a strong analytical framework, and a dedicated team, even the most ambitious targets are reachable.`;
 
-const INTERESTS2 = `Other than traveling, I love trekking and cycling, and as a challenge to myself, I decided 
-to embark on a journey to the Everest Base Camp. After a 130KM, 2504M grueling vertical ascend from 
-Tenzing-Hillary Airport, widely regarded as some of the world’s most dangerous airports, I made it 
-with a friend of mine and our guide. The entire experience was spectacular as I have also met and struck up 
-conversations with trekkers from all walks of life and background, and we all had a common goal 
-of reaching the top of the base camp.`;
+const INTERESTS2 = `My journey across three countries has taught me that the best way to grow is to immerse yourself in new environments. 
+This constant adaptation has been my greatest asset, forcing me to become self-reliant and to build connections across cultures. 
+This global perspective is what I bring to my work. I believe that in finance, as in life, the most valuable opportunities are often found by 
+looking at a problem from a unique angle. For me, that means asking not only "will this deal close?" but also "what kind of value will 
+this union truly create for all its stakeholders?`;
 
-const INTERESTS3 = `Also, I love (really in love with) drone photography and filming! This is my one true passion, as
-the angles I get are much more unique compared to any DSLR/phone camera. The perspectives that
-aerial shots offer are so mesmerizing that it makes you feel like a bird (and this fulfills my 
-desire to be able to fly lol) (You can view some of collection on this website). Lastly, I love 
-to read non-fiction books, especially those that are related to entrepreneurship, biographies, 
-and self-help, as those books usually contain a lot of valuable insights and satiate my curiosity 
-about the lives of others.
+const INTERESTS3 = `
 `;
 
 interface props {
@@ -106,7 +96,7 @@ const Welcome = ({ id }: props) => {
                 tooltip="My Brain Dump"
                 onClick={() => {
                   window.open(
-                    "https://github.com/firwer",
+                    "https://github.com/AngerDileklen",
                     "_blank",
                     "noreferrer"
                   );
@@ -118,7 +108,7 @@ const Welcome = ({ id }: props) => {
                 tooltip="Connect with me!"
                 onClick={() => {
                   window.open(
-                    "https://www.linkedin.com/in/poh-wei-pin-7b9061183/",
+                    "https://www.linkedin.com/in/angerdileklen1/",
                     "_blank",
                     "noreferrer"
                   );
